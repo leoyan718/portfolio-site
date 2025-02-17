@@ -21,15 +21,18 @@ html {
     box-sizing: inherit;
 }
 
-
+html, body{
+    height:100%;
+}
 body {
-    background: #bcaa96;
+    background: lightsteelblue;
+    margin: 0;
 }
 
 /* links */
 
 a{
-    color:green;
+    color:darkcyan;
 }
 a:hover{
     color:beige;
@@ -44,11 +47,16 @@ footer a:hover{
     color: green;
 }
 .btn{
-    background:green;
+    background:deepskyblue;
     color: #f6f6f6;
     text-decoration: none;
 }
 
+.content-wrapper{
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
 
 
 
@@ -64,7 +72,14 @@ footer a:hover{
 }
 /* RESUME
 --------------------------------*/
+.resume header::before {
+    background: url(../images/TreeRoom.png) center;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 400px;
 
+}
 
 /* PROFILE
 --------------------------------*/
