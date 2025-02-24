@@ -64,11 +64,17 @@ footer a:hover{
 /* HOME
 --------------------------------*/
 .home{
-    background: url(../images/bg-gradient.jpg) no-repeat;
+    background: url(../images/TreeRoom.png) no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 .home .content-wrapper{
+    flex: 1 0 auto
+}
+.content-bg{
     background: rgb(255 255 255 / 0.9);
+    padding: 10px;
 }
 /* RESUME
 --------------------------------*/
