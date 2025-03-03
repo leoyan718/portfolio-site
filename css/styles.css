@@ -27,6 +27,11 @@ html, body{
 body {
     background: lightsteelblue;
     margin: 0;
+
+    font-family: "Rosarivo", cursive;
+}
+h1, h2, h3{
+    font-family: "Rosarivo", cursive;
 }
 
 /* links */
