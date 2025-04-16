@@ -34,6 +34,15 @@ body {
     line-height: 1.4;
 }
 
+#scene-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; /* Behind everything */
+  }
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -202,6 +211,8 @@ footer a:hover{
 
 /* RESUME
 --------------------------------*/
+
+
 .resume header::before {
     background: url(../images/TreeRoom.png) center;
     background-size: cover;

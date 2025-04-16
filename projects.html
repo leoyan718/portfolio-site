@@ -10,15 +10,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&family=Rosarivo:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@v0.174.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.174.0/examples/jsm/"
+        }
+      }
+    </script>
+
+    <script type="module" src="js/main.js"></script>
+
   </head>
   <body class="resume">
     <!-- <a class="btn download link" href="#">Download PDF</a> -->
 
+    <div id ="three-container"></div>
 
     <!-- //  NAV BAR  // -->
     <nav class="navbar">
       <div class="logo">
-          <a href="index.html">Leo Yan</a>
+          <a href="index.html">LY</a>
       </div>
       <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
@@ -73,8 +86,6 @@
            </div>  
 
            <section class="resume-section">
-            <!-- Start content edits below this line. -->
-            <!-- <h2>Projects</h2> -->
     
             <!-- To add more items, copy this whole <section></section> block-->
              <div class="project-wrapper">
@@ -82,7 +93,28 @@
               <img src="images/TreeRoom.png" srcset="" alt="3D environment art by Leo Yan" width="900" height="300">
               <h3>A Blossoming Workspace (2025)</h3>
               <p>A render of an imagined aesthetic workspace where creative ideas often emerge along with a lovely sight.</p>
+
+            </section>
+          </div>  
+          <section class="resume-section">
+            <!-- Start content edits below this line. -->
+            <!-- <h2>Projects</h2> -->
+    
+            <!-- To add more items, copy this whole <section></section> block-->
+             <div class="project-wrapper">
+            <section class="project-item">
+              <img src="images/clov1.png" srcset="" alt="3D character/environment art by Leo Yan" width="900" height="300">
+              <h3>Twice the Luck (2024)</h3>
+              <p>A memory of two different stuffed matching keychains that drifted away and are now lost.</p>
            
+            </section>
+             </div>  
+            
+
+            
+           
+            
+              
               <!-- link to project -->
               <!-- <a class="btn" href="#" target="_blank">My Portfolio</a> -->
               <!-- additional links, e.g. newsletter -->
@@ -116,6 +148,8 @@
       
       <!-- End content edits here. -->
     </footer>
+<!-- fix -->
+    <div id="scene-container" style="width: 100%; height: 600px;"></div>
 
   </body>
 </html>
