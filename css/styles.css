@@ -212,7 +212,7 @@ footer a:hover{
 /* 
 Project templates */
 .hometemplate{
-    background: url(../images/projectbackgroudntemplate.jpg) no-repeat;
+    background: url(../images/projectbackgroudntemplate.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -248,7 +248,8 @@ Project templates */
   background-color: rgba(0,0,0,0.8);
   justify-content: center;
   align-items: center;
-  z-index: 999;
+  z-index: 9999;
+  overflow: auto;
 }
 
 .modal:target {
