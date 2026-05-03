@@ -111,7 +111,7 @@ body {
         position: absolute;
         top: 60px;
         left: 0;
-        background-color: #28a745;
+        background-color: skyblue;
         /* Green background for mobile view */
     }
 
@@ -152,7 +152,7 @@ h3{
 /* links */
 
 a{
-    color:darkcyan;
+    color: skyblue;
 }
 a:hover{
     color:beige;
@@ -164,7 +164,7 @@ footer a {
 }
 
 footer a:hover{
-    color: green;
+    color: skyblue;
 }
 .btn{
     background: black;
@@ -221,7 +221,7 @@ Project templates */
     flex: 1 0 auto
 }
 .content-bg{
-    background: rgb(255 255 255 / 0.9);
+    background: rgb(255 255 255 / 0.8);
     padding: 10px;
 }
 @media screen and (max-width:650px){
@@ -276,7 +276,7 @@ Project templates */
 
 
 .resume header::before {
-    background: url(../images/TreeRoom.png) center;
+    background: url(../images/RiverFlowedinYou.png) center;
     background-size: cover;
     content: "";
     display: block;
